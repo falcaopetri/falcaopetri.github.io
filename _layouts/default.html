@@ -15,6 +15,10 @@
 
     {% include footer.html %}
 
+    {% comment %}
+    Loads a javascript file to execute whatever is needed. At current time, it enables ~~strikethrough~~.
+    {% endcomment %}
+    <script src="{{ "/assets/javascripts/main.js" | prepend: site.baseurl }}" charset="utf-8"></script>
   </body>
 
 </html>
