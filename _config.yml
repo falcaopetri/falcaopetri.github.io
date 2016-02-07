@@ -8,7 +8,7 @@
 # Site settings
 title: falcaopetri
 email: falcaopetri@gmail.com
-description: > 
+description: >
         Este é meu tão sonhado espaço para compartilhar conhecimentos.
         Que o conteúdo desse blog seja útil para você, assim como o compromisso de mantê-lo atualizado será para mim.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -18,3 +18,11 @@ github_username:  falcaopetri
 
 # Build settings
 markdown: kramdown
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            comments: true
