@@ -19,10 +19,11 @@ github_username:  falcaopetri
 # Build settings
 markdown: kramdown
 
+permalink: /:categories/:title
+
 defaults:
     -
         scope:
-            path: ""
             type: "posts"
         values:
             comments: true
