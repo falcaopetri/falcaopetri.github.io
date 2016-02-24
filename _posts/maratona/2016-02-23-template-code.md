@@ -101,7 +101,7 @@ Por fim, a maioria dos problemas define algum valor máximo que será utilizado 
 
 Na verdade, ainda não tive a chance de usar a linha 2. Uso a linha 1 sempre que vou submeter um problema que passou por muito _debug_, e não tenho certeza se ele vai passar de primeira. Assim, posso interromper e retomar o _debugging_ facilmente.
 
-> Encontrei a linha 2 olhando o código de alguma submissão no CF, mas não lembro quem era o usuário para poder "creditá-lo" {% icon fa-frown-o %}
+> Encontrei a linha 2 olhando o código de alguma submissão no CF, mas não lembro quem era o usuário para poder "creditá-lo" <i class="fa fa-frown-o"></i>
 
 ## iostream (experimental)
 {% gist falcaopetri/b3904bd614f3304b1684 main.cpp %}
